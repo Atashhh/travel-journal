@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > p {
+    color: white;
+}
+.fa-earth-europe {
+    font-size: 15px
+}
+
+.hero {
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 14px;
+    margin: 15px 15px;
+}
+
+.hero-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.hero-info {
+    padding: 19px;
+}
+
+.hero-loc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.hero-loc-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-right: 10px;
+}
+
+.hero-loc-map {
+    color: #918E9B;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 0 14px 0;
+}
+
+.hero-date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-bottom: 9px;
+}
+.hero-desc {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.fa-sharp {
+    color: #F55A5A
+}
